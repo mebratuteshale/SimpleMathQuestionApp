@@ -74,7 +74,7 @@ input[type=text]::placeholder{
     filter: brightness(0.9);
 }
 
- .lbl-score {
+.lbl-score {
     color: green;
     text-align: right;
     font-family: cursive;

@@ -8,15 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form  class="form" id="form">
-        <h4 class="score" id="score">score: 0</h4>
+    <form  class="form" id="mathForm">
+        <h4 class="lbl-score" >missed: 
+            <label id="wrongScore" class="wrongAns">0</label> 
+        </h4>
+        <h4 class="lbl-score" >score: 
+            <label id="totalScore" class="score">0</label> 
+        </h4>
         <h1 class="question">What is 
-            <label class="operand">1</label> 
-            <label class="operation">*</label> 
-            <label class="operand">1</label> ?
+            <label id="operand1" class="operand">1</label> 
+            <label id="operator" class="operator">*</label> 
+            <label id="operand2" class="operand">1</label> ?
         </h1>
-        <input type="text" class="input" id="input" placeholder="Enter your answer" autofocus autocomplete="off">
+        <input type="text" class="input" id="inAnswer" placeholder="Enter your answer" autofocus autocomplete="off">
         <button type="submit" class="btn">Submit</button>
     </form>
+    <script src="index.js"></script>
 </body>
 </html>
